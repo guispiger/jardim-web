@@ -1,0 +1,48 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar{
+    position: fixed;
+    top: 0;
+    left: 0;
+
+}
+
+.wrapper{
+    display: flex;
+    width: 100vw;
+    background-color: #1A242E;
+    color: #FFFFFF;
+    height: auto;
+}
+
+.wrapper div{
+    margin:0px 10px;
+}
+
+.wrapper ul{
+    display: none;
+    padding: 5px;
+}
+
+.wrapper a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.wrapper .design-selection:hover ul{
+    display: block;
+}
+
+.wrapper .design-archives:hover ul{
+    display: block;
+}
+
+.wrapper .design-resources:hover ul{
+    display: block;
+}
+
