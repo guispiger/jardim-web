@@ -5,33 +5,68 @@
     padding: 0;
 }
 
+body{
+    background-color: #192531;
+}
+
+.page-wrapper {
+    margin: 0 10px;
+    color: #FFFFFF;
+}
+
+a {
+    color: #57B8F3;
+    text-decoration: none;
+}
+
+/** inicio menu**/
 .sidebar{
     position: fixed;
     top: 0;
     left: 0;
-
 }
 
 .wrapper{
     display: flex;
     width: 100vw;
-    background-color: #1A242E;
-    color: #FFFFFF;
+    background-color: #24313f;
     height: auto;
 }
 
 .wrapper div{
     margin:0px 10px;
+    text-align: center;
+}
+
+.wrapper div:first-of-type {
+    margin-left: 100px;
+}
+
+.wrapper h3{
+    padding: 25px 5px;
+    margin: auto 50px;
 }
 
 .wrapper ul{
     display: none;
     padding: 5px;
+    list-style: none;
+}
+
+.wrapper ul li{
+    margin: 5px;
 }
 
 .wrapper a{
-    text-decoration: none;
     color: #FFFFFF;
+}
+
+.wrapper a:hover{
+    border: 10px solid #FFFFFF;
+    border-radius: 10px 1px 10px 1px;
+    color: #000000;
+    background-color: #FFFFFF;
+    font-weight: bold;
 }
 
 .wrapper .design-selection:hover ul{
@@ -45,4 +80,40 @@
 .wrapper .design-resources:hover ul{
     display: block;
 }
+/** fim menu **/
 
+/** inicio footer **/
+.footer {
+    text-align: center;
+    margin: 10px;
+}
+
+.footer a {
+    font-size: 15px;
+}
+/** fim footer **/
+
+h1 {
+    background-image: url('img/logo.png');
+    height: 50px;
+    width: 100px;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 1;
+    color: transparent;
+}
+
+h2 {
+    text-align: center;
+    background: url('img/capa.png') no-repeat center;
+    height: 30vh;
+    width: 90vw;
+    margin: 20px 50px;
+}
+
+h2 span {
+    position: relative;
+    border: solid 5px black;
+    top: 25vh; 
+}
