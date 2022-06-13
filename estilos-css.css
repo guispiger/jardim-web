@@ -10,13 +10,16 @@ body{
 }
 
 .page-wrapper {
-    margin: 0 10px;
     color: #FFFFFF;
 }
 
 a {
     color: #57B8F3;
     text-decoration: none;
+}
+
+a:visited{
+    color: #daa520;
 }
 
 /** inicio menu**/
@@ -44,7 +47,7 @@ a {
 
 .wrapper h3{
     padding: 25px 5px;
-    margin: auto 50px;
+    margin: auto 60px;
 }
 
 .wrapper ul{
@@ -85,7 +88,10 @@ a {
 /** inicio footer **/
 .footer {
     text-align: center;
-    margin: 10px;
+    position: absolute;
+    top: 165vh;
+    width: 99vw;
+    padding: 10px;
 }
 
 .footer a {
@@ -94,26 +100,185 @@ a {
 /** fim footer **/
 
 h1 {
-    background-image: url('img/logo.png');
-    height: 50px;
-    width: 100px;
+    background: url('img/logo.png') no-repeat center/130px auto;
     position: fixed;
-    top: 10px;
-    left: 10px;
+    top: 15px;
+    left: 1px;
     z-index: 1;
     color: transparent;
 }
 
 h2 {
     text-align: center;
-    background: url('img/capa.png') no-repeat center;
-    height: 30vh;
-    width: 90vw;
-    margin: 20px 50px;
+    background: url('img/rice-terraces-gae1c11dc2_1920.jpg') no-repeat center;
+    height: 45vh;
+    margin: 20px 0px;
 }
 
 h2 span {
     position: relative;
-    border: solid 5px black;
-    top: 25vh; 
+    top: 30vh;
+}
+
+#jar-supporting h3, .preamble h3{
+    position: absolute;
+    left: 20vw;
+    top: -3vh;
+}
+
+.summary{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    top: 50vh;
+    width: 99vw;
+}
+
+.preamble{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 70vh;
+    width: 99vw;
+}
+
+#jar-supporting div{
+    display: flex;
+    justify-content: center;
+}
+
+.explanation{ 
+    position: absolute;
+    top: 90vh;
+    width: 99vw;
+}
+
+.participation{
+    position: absolute;
+    top: 110vh;
+    width: 99vw; 
+}
+
+.benefits{
+    position: absolute;
+    top: 130vh;
+    width: 99vw;
+}
+
+.requirements{
+    position: absolute;
+    top: 150vh;
+    width: 99vw; 
+}
+
+p{
+    margin: 0 20px;
+    height: 150px;
+    width: 250px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 12px;
+    transition: all 0.5s;
+}
+
+p:hover{
+    z-index: 1;
+    transform: scale(1.1);
+    padding: 10px;
+    border: 2px solid #57B8F3;
+    height: 350px;
+}
+
+p span{
+    position: relative;
+    top: 150px;
+}
+
+#extraDiv1{
+    background: url('img/adult-1.png') no-repeat center/auto 30px;
+    position: fixed;
+    top: 10px;
+    right: 70px;
+    width: 50px;
+    height: 50px;
+}
+
+#extraDiv1::after{
+    content: "Usuário";
+    font-weight: bold;
+    color: #808080;
+    position: relative;
+    left: 50px;
+    top: 20px;
+}
+
+#extraDiv2{
+    background: url('img/lupa.png') no-repeat center/auto 20px;
+    position: fixed;
+    top: 10px;
+    right: 120px;
+    width: 50px;
+    height: 50px;
+}
+
+.summary p:nth-child(1){
+    background: url('img/sumario.png') no-repeat top/auto 150px  #192531;
+}
+
+.summary p:nth-child(2){
+    background: url('img/downloads.png') no-repeat top/auto 150px  #192531;
+}
+
+.preamble p:nth-child(2){
+    background: url('img/carnage-g5ee2a9e2d_1920.jpg') no-repeat top/auto 150px  #192531;
+}
+
+.preamble p:nth-child(3){
+    background: url('img/spiderman-gaab8c59d4_1920.jpg') no-repeat top/auto 150px  #192531;
+}
+
+.preamble p:nth-child(4){
+    background: url('img/alien-g5684451c5_1280.png') no-repeat top/auto 150px  #192531;
+}
+
+.explanation p:nth-child(2){
+    background: url('img/movie-gb02563658_1920.jpg') no-repeat top/auto 150px  #192531;
+}
+
+.explanation p:nth-child(3){
+    background: url('img/photo-manipulation-g4380314bf_1920.jpg') no-repeat top/auto 150px  #192531;
+    font-size: 11px;
+}
+
+.participation p:nth-child(2){
+    background: url('img/film-poster-g5dfe791c7_1920.jpg') no-repeat top/auto 150px  #192531;
+}
+
+.participation p:nth-child(3){
+    background: url('img/poster-g274c96c27_1920.jpg') no-repeat top/auto 150px  #192531;
+}
+
+.participation p:nth-child(4){
+    background: url('img/human-g7415ab348_1920.jpg') no-repeat top/auto 150px  #192531;
+}
+
+.benefits p:nth-child(2){
+    background: url('img/dog-gd0cf1aa1d_640.png') no-repeat top/auto 150px  #192531;
+}
+
+.requirements p:nth-child(2){
+    background: url('img/room-ga8bf1739e_640.jpg') no-repeat top/auto 150px  #192531;
+}
+
+.requirements p:nth-child(3){
+    background: url('img/automobile-g58ac97c2c_640.jpg') no-repeat top/auto 150px  #192531;
+    font-size: 11px;
+}
+
+.requirements p:nth-child(4){
+    background: url('img/composite-g19f1da70c_640.jpg') no-repeat top/auto 150px  #192531;
+}
+
+.requirements p:nth-child(5){
+    background: url('img/villain-g32e7582c7_640.jpg') no-repeat top/auto 150px  #192531;
 }
