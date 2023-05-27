@@ -1,6 +1,6 @@
 # jadim-web
- trabalho 2 de sitios web 1
+ Trabalho 2 da disciplina de Sitios Web 1 da gradução em em Tecnologia em Sistemas para internet - UTFPR Toledo - PR.
 
- link para acesso da demonstração: https://guispiger.github.io/jardim-web/
+ Acesso à demonstração [aqui](https://guispiger.github.io/jardim-web/)
  
- link para projeto entrgue na disciplina: http://maverick.td.utfpr.edu.br/jardimweb/plantas/527/
+ Projeto no repositório da disciplina pode ser visualizado [aqui](http://maverick.td.utfpr.edu.br/jardimweb/plantas/527/)
